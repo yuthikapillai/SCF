@@ -1,3 +1,3 @@
-spincube: The spin density code helps plot spin densities along x y and z spin axes. It generates the cube files asociated with each spin density direction.  It only needs the coefficients/density matrix supplied to it.
+spincube.py: The spin density code helps plot spin densities along x y and z spin axes. It generates the cube files asociated with each spin density direction.  It only needs the coefficients/density matrix supplied to it.
 
 coefficients.py: Generates the fock matrix using coefficients, one and two electron integral matrices. 
