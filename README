@@ -1,3 +1,15 @@
+The following codes are a result of research undertaken during my PhD at the Universtiy of Cambridge. 
+
+
 spincube.py: The spin density code helps plot spin densities along x y and z spin axes. It generates the cube files asociated with each spin density direction.  It only needs the coefficients/density matrix supplied to it.
 
 coefficients.py: Generates the fock matrix using coefficients, one and two electron integral matrices. 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% MixedSpinVisualisationSoftware %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The directory 'mixedspin' contains python files that will generate a colour wheel mapping of spin density. It is specifically designed to visualise non-collinear spin in real-GHF systems. The following file also requires installation of Quantel, a software package developed by Dr Hugh Burton. 
+The python files are built for a real GHF calculation on an H3 ring. 
