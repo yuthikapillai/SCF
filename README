@@ -11,5 +11,5 @@ coefficients.py: Generates the fock matrix using coefficients, one and two elect
 %%%%%%%%%%%%%% MixedSpinVisualisationSoftware %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The directory 'mixedspin' contains python files that will generate a colour wheel mapping of spin density. It is specifically designed to visualise non-collinear spin in real-GHF systems. The following file also requires installation of Quantel, a software package developed by Dr Hugh Burton. 
+The directory 'mixedspin' contains python files that will generate a colour wheel mapping of spin density (for occupied MOs) (spindensity_occupiedMOs) and rotate your spin vectors in the lowest occupied molecular orbital along the z-direction (alignspinaxislowocc). It is specifically designed to visualise non-collinear spin in real-GHF systems. The following file also requires installation of Quantel, a software package developed by Dr Hugh Burton. 
 The python files are built for a real GHF calculation on an H3 ring. 
