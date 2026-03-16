@@ -9,7 +9,7 @@ from skimage.measure import marching_cubes
 from pyscf import gto
 from pyscf.tools import cubegen
 
-# ── Your GHF machinery ────────────────────────────────────────────────────────
+# ──GHF machinery ────────────────────────────────────────────────────────
 from quantel.ints.pyscf_integrals import PySCFMolecule, PySCFIntegrals
 from quantel.wfn.ghf import GHF
 from quantel.opt.lbfgs import LBFGS
